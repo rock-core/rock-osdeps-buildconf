@@ -2,7 +2,11 @@
 # in the package sets. Below is an example to change the branch name for a given
 # package
 #
-# overrides:
-#   - rtt
-#     branch: test
-#  
+overrides:
+    - drivers/orogen/transformer:
+      branch: orocos_cpp
+    - tools/apaka:
+      branch: testing
+    - external/ogdf:
+      url: https://github.com/ogdf/ogdf.git
+      tag: catalpa-202002
