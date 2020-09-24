@@ -6,3 +6,9 @@
 #   - rtt
 #     branch: test
 #  
+overrides:
+- tools/apaka:
+  branch: refactor
+- external/ogdf:
+  url: https://github.com/ogdf/ogdf.git
+  tag: catalpa-202002
