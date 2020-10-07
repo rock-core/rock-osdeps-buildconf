@@ -2,9 +2,8 @@ package_sets:
    - github: rock-core/package_set
    - github: rock-core/rock-package_set
    - rock-osdeps:
-     type: git
-     url: __CI_URL__
-     branch: __CI_BRANCH__
+     github: rock-core/rock-osdeps-package_set
+     branch: rubygems-integration
 
 # Layout. Note that the rock.base and orocos.toolchain sets are
 # imported by other rock sets.
